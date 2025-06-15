@@ -1,2 +1,16 @@
-# Ignore node_modules
+# Dependency directory
 node_modules/
+
+# Yarn log files
+yarn-debug.log*
+yarn-error.log*
+
+# Yarn Integrity file
+.yarn-integrity
+
+# Yarn v2 (Berry)
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
